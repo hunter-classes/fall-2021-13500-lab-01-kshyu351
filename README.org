@@ -1,10 +1,10 @@
 * Fall 2021 - Lab 01
 
-* Last name: 
+* Last name: Shyu
 
-* First name: 
+* First name: Kirsten
 
-* GitHub username: 
+* GitHub username: kshyu51
 
 * Notes:
 
