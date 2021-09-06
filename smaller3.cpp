@@ -36,7 +36,7 @@ int main() {
       smallest = secondNum;
     }
   }
-  else 
+  else {
     smallest = thirdNum;
   }  
  
