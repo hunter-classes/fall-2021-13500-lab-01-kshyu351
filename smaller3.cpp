@@ -25,28 +25,23 @@ int main() {
   int thirdNum;
 
   
-  int small;
   int smallest;
-  if (firstNum < secondNum) { 
-    small = firstNum; 
-    if (small < thirdNum) { 
+  if (firstNum <= secondNum) { 
+    if (firstNum <= thirdNum) { 
       smallest = firstNum; 
     }
   }
-  if (secondNum < firstNum) { 
-    small = secondNum;
-    if (small < thirdNum) { 
+  else if (secondNum <= firstNum) { 
+    if (secondNum <= thirdNum) { 
       smallest = secondNum;
     }
   }
-  if (thirdNum > firstNum) { 
-    small = thirdNum; 
-    if (small < secondNum) { 
-      smallest = thirdNum;
-    }
+  else 
+    smallest = thirdNum;
   }  
  
   cout << "The smaller of the three is " << smallest << endl;
+  
 }
   
   
