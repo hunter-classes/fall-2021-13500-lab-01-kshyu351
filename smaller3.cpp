@@ -34,7 +34,7 @@ int main() {
     if (secondNum <= thirdNum) { 
       smallest = secondNum;
     }
-  }
+  
   else {
     smallest = thirdNum;
   }  
