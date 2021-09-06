@@ -2,12 +2,13 @@
 Author: Kirsten Shyu
 Course: CSCI-135
 Instructor: Tong Yi
-Assignment: Lab1B
+Assignment: Lab1C
 
 
-Write a program smaller3.cpp that asks the 
-user to input three integer numbers,
- and prints out the smallest of the three.
+Write a program leap.cpp that asks the 
+user to input an integer representing a year number (1999, 2016, etc.). 
+If the input year is a leap year according to the modern Gregorian calendar, 
+it should print Leap year, otherwise, print Common year.
 
 */
 #include <iostream>
