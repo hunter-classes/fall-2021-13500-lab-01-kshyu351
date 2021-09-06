@@ -31,7 +31,6 @@ int main() {
       smallest = firstNum; 
     }
   }
-  else if (secondNum <= firstNum) { 
     if (secondNum <= thirdNum) { 
       smallest = secondNum;
     }
@@ -41,6 +40,7 @@ int main() {
   }  
  
   cout << "The smaller of the three is " << smallest << endl;
+  return 0; 
   
 }
   
