@@ -8,6 +8,7 @@ Assignment: Lab1B
 
 Write a program smaller3.cpp that asks the user to input three integer numbers,
  and prints out the smallest of the three.
+ 
 */
 #include <iostream>
 using namespace std;
