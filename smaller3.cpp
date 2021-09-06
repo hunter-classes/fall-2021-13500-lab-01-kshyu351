@@ -26,13 +26,13 @@ int main() {
 
   
   int smallerNum;
-  if (firstNum < secondNum) && (firstNum < thirdNum) {
+  if ((firstNum < secondNum) && (firstNum < thirdNum)) {
    smallerNum = firstNum;
   }
-  else if (secondNum < firstNum) && (secondNum < thirdNum) {
+  else if ((secondNum < firstNum) && (secondNum < thirdNum)) {
     smallerNum = secondNum;
   }
-  else if (thirdNum < firstNum) && (thirdNum < secondNum) { 
+  else if ((thirdNum < firstNum) && (thirdNum < secondNum)) { 
     smallerNum = thirdNum;
   }
   cout << "The smaller of the two is " << smallerNum << endl;
