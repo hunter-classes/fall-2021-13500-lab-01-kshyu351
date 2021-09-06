@@ -32,11 +32,13 @@ int main() {
     if (small < thirdNum) { 
       smallest = firstNum; 
     }
+  }
   if (secondNum < firstNum) { 
     small = secondNum;
     if (small < thirdNum) { 
       smallest = secondNum;
     }
+  }
   if (thirdNum > firstNum) { 
     small = thirdNum; 
     if (small < secondNum) { 
