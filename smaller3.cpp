@@ -14,28 +14,30 @@ using namespace std;
 int main() {
 
   cout << "Enter the first number: " << endl;
-  int firstNum;
-  cin >> firstNum;
+  int first;
+  cin >> first;
   cout << "Enter the second number: " << endl;
-  int secondNum;
-  cin >> secondNum;
+  int second;
+  cin >> second;
   cout << "Enter the third number: " << endl; 
-  int thirdNum;
+  int third;
 
   
   int smallest;
-  if (firstNum <= secondNum) { 
-    if (firstNum <= thirdNum) { 
-      smallest = firstNum; 
+  if (first <= second) { 
+    if (first <= third) { 
+      smallest = first; 
     }
   }
-    else if (secondNum <= thirdNum) { 
-      smallest = secondNum;
+  else if (second <= first) { 
+    if (second <= third) { 
+      smallest = second;
     }
-  
-  else {
-    smallest = thirdNum;
-  }  
+  }
+  else { 
+    smallest = third;
+  }
+
  
   cout << "The smaller of the three is " << smallest << endl;
   return 0; 
