@@ -30,18 +30,21 @@ int main() {
       smallest = first; 
     }
   }
+
   else if (second <= first) { 
     if (second <= third) { 
       smallest = second;
     }
   }
-  else { 
-    smallest = third;
-  }
 
+  else if (third <= first) { 
+    if (third <= second) { 
+      smallest = third;
+    }
+  }
+ 
  
   cout << "The smaller of the three is " << smallest << endl;
-  return 0; 
 }
   
   
