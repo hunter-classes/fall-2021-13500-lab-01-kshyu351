@@ -31,13 +31,13 @@ int main() {
     }
   }
 
-  else if (second <= first) { 
+  if (second <= first) { 
     if (second <= third) { 
       smallest = second;
     }
   }
 
-  else if (third <= first) { 
+   if (third <= first) { 
     if (third <= second) { 
       smallest = third;
     }
