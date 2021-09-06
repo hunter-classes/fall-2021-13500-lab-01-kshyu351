@@ -20,19 +20,24 @@ int main() {
   cin >> year;
 
   
-if ((year % 4) == 0) {
-    cout << "Leap year" << endl; 
-}
-else if ((year % 100) == 0) { 
+if ((year % 4) != 0) {
     cout << "Common year" << endl; 
 }
 
-else if ((year%400) == 0) { 
+else if ((year % 100) != 0) { 
+    cout << "Leap year" << endl; 
+    
+}
+
+else if ((year%400) != 0) { 
+    cout << "Common year" << endl; 
+
+}
+
+else {
     cout << "Leap year" << endl; 
 }
-else {
-    cout << "Common year" << endl; 
-}
+
 }
  
  
