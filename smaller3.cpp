@@ -21,6 +21,7 @@ int main() {
   cin >> second;
   cout << "Enter the third number: " << endl; 
   int third;
+  cin >> third;
 
   
   int smallest;
