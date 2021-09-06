@@ -9,8 +9,6 @@ Assignment: Lab1B
 Write a program smaller3.cpp that asks the user to input three integer numbers,
  and prints out the smallest of the three.
 */
-
-
 #include <iostream>
 using namespace std;
 int main() {
@@ -31,7 +29,7 @@ int main() {
       smallest = firstNum; 
     }
   }
-    if (secondNum <= thirdNum) { 
+    else if (secondNum <= thirdNum) { 
       smallest = secondNum;
     }
   
@@ -41,7 +39,6 @@ int main() {
  
   cout << "The smaller of the three is " << smallest << endl;
   return 0; 
-  
 }
   
   
